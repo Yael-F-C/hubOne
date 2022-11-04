@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="YaelProjectGallery0722styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="header">
+      <h1>Who should we admire?</h1>
+      <p>What can we learn from the people we admire? Those who are nurturing, productive, leaders and enjoy&nbsp;themselves.</p>
+      <p>The people who thrive within the patriarchal society we live but don’t subscribe to patriarchal ideas and ways of&nbsp;life.
+    </p>
+    </div>
+    <div id="gallery">
+        
+        <figure id="imageFigure" onclick="showCaption1()">
+            <p>Writers</p>
+            <img src="https://raw.githubusercontent.com/Yael-F-C/hubOne/main/images/Writers.png" alt="Writers"/>
+            <figcaption id="image-caption1">Image caption description</figcaption>
+        </figure>
+        <figure id="imageFigure" onclick="showCaption2()">
+            <p>Creators</p>
+            <img src="https://raw.githubusercontent.com/Yael-F-C/hubOne/main/images/Creators.png" alt="Creators"/>
+            <figcaption id="image-caption2">Image caption description</figcaption>
+        </figure>
+        <figure id="imageFigure" onclick="showCaption3()">
+            <p>Artists</p>
+            <img src="https://raw.githubusercontent.com/Yael-F-C/hubOne/main/images/Artists.png" alt="Artists"/>
+            <figcaption id="image-caption3">Image caption description</figcaption>
+        </figure>
+        <figure id="imageFigure" onclick="showCaption4()">
+            <p>Teachers</p>
+            <img src="https://raw.githubusercontent.com/Yael-F-C/hubOne/main/images/Teachers.png" alt="Teachers"/>
+            <figcaption id="image-caption4">Image caption description</figcaption>
+        </figure>
+    </div>
+    <footer>
+        <hr style="color:#85f4c5;">
+        This page is copyright under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-Non Commercial-Share Alike 4.0 International License</a>
+    </footer>
+  </body>
+  <script>
+    function showCaption1() {
+        var x = document.getElementById("image-caption1");
+        if (window.getComputedStyle(x).display === "none") {
+            x.style.display = "block";
+            }
+        }
+    function showCaption2() {
+    var x = document.getElementById("image-caption2");
+    if (window.getComputedStyle(x).display === "none") {
+        x.style.display = "block";
+        }
+    }
+    function showCaption3() {
+    var x = document.getElementById("image-caption3");
+    if (window.getComputedStyle(x).display === "none") {
+        x.style.display = "block";
+        }
+    }
+    function showCaption4() {
+    var x = document.getElementById("image-caption4");
+    if (window.getComputedStyle(x).display === "none") {
+        x.style.display = "block";
+        }
+    }
+    </script>    
+</html>
